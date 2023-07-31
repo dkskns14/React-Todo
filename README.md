@@ -11,16 +11,20 @@ Before starting, ensure you have the following installed on your machine:
 4.	Django REST framework
 
 Frontend Setup (React.js)
+
 1.	Create a new React.js project:
 2.	create-react-app Todo-app-frontend   cd Todo-app-frontend
 Clear out unnecessary files from the src folder (e.g., App.css, logo.svg, setupTests.js)
 Install required dependencies:
+
 npm install axios
 Create a new folder called components inside the src folder. This is where we'll put our React components.
+
 Create the following components:
 •	Todo List: Renders the list of tasks.
 •	Todo Item: Renders individual tasks with options to mark as completed and delete.
 •	Add Todo Form: Provides a form to add new tasks.
+
 Set up the component hierarchy and implement functionality to fetch tasks from the backend using Axios.
 Implement functionality to add, update, and delete tasks. Use Axios to communicate with the backend API.
 
